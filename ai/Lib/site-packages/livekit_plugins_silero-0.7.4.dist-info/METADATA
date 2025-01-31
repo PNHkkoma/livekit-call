@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: livekit-plugins-silero
+Version: 0.7.4
+Summary: Agent Framework Plugin for Silero
+Home-page: https://github.com/livekit/agents
+License: Apache-2.0
+Project-URL: Documentation, https://docs.livekit.io
+Project-URL: Website, https://livekit.io/
+Project-URL: Source, https://github.com/livekit/agents
+Keywords: webrtc,realtime,audio,video,livekit
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Multimedia :: Video
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
+Requires-Dist: livekit-agents>=0.11
+Requires-Dist: onnxruntime>=1.18
+Requires-Dist: numpy>=1.26
+
+# LiveKit Plugins Silero
+
+Agent Framework Plugin for Silero. Currently supports Voice Activity Detection.
+
+## Installation
+
+```bash
+pip install livekit-plugins-silero
+```
+
+This plugin contains model files that would need to be downloaded prior to use.
